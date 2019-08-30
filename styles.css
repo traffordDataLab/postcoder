@@ -1,0 +1,120 @@
+
+/* text */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .header {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #fc6721;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc6721;
+  text-decoration: underline;
+}
+
+a:focus {
+  color: #fc6721;
+  text-decoration: none;
+  outline: none;
+  outline-offset: 0;
+}
+
+.headerContainer a:hover {
+  text-decoration: none;
+}
+
+button:active {
+  box-shadow: none !important;
+}
+
+.homeMenuButtonText {
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.homeMenuButtonText:hover {
+  color: #333333;
+}
+
+/* absolutePanel */
+
+.controls
+{
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+  border-radius: 15px;
+  opacity: 0.85;
+  width: 370px;
+  top: 10px;
+  right: 10px;
+}
+
+.tab-content
+{
+  padding: 5px 5px 5px 15px;
+}
+
+.div1 {
+  display: inline-block;
+  float: left;
+  margin-right: 3px;
+}
+
+.div2 {
+  clear: both;
+}
+
+#submit {
+  color: #fff; 
+  background-color: #fc6721; 
+  border-color: #fc6721;
+  width: 30px;
+  padding-left: 7px;
+}
+
+#submit i {
+  color: #fff;
+}
+
+/* radionButtons */
+#selection input[type="radio"] {
+  visibility: hidden;
+}
+
+#selection span {
+  display: inline-block;
+  color: #fff; 
+  background-color: #757575;
+  padding: 5px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  white-space: nowrap;
+  margin-left: -20px;
+  width: 140px;
+}
+
+#selection input[type="radio"]:checked+span {
+  background-color: #fc6721;
+}
+
+#target:focus {
+  box-shadow: 0 0 5px #fc6721;
+}
+
+#target, #target:focus {
+  border-color: #fc6721;
+}
